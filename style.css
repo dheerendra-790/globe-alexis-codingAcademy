@@ -1,0 +1,172 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: skyblue !important;
+}
+
+.carousel-inner {
+    height: 287px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 231px;
+    right: 70px;
+
+}
+
+#photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.animate-text{
+    width: 624px;
+    height: 52px;
+    background-color: lightgray;
+    border-left: 2px solid black;
+    position: absolute;
+    right: -225px;
+    top: 455px;
+    animation: typing 4s steps(48) infinite; 
+}
+@keyframes typing{
+    0%{
+        right: 307px;
+    }
+    60%{
+        right: -314px;
+    }
+
+    100%{
+        right: -314px;
+    }
+}
+
+#photo .rotator {
+    width: 205px;
+    height: 205px;
+    border-radius: 100px;
+    border: 5px dashed red;
+    position: absolute;
+    top: -105px;
+    right: 569px;
+    animation: roundup 6s infinite linear;
+    box-shadow: 0px 0px 37px 7px black;
+}
+
+@keyframes roundup {
+    0% {
+        transform: translate(50%, 50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(50%, 50%) rotate(360deg);
+    }
+}
+.bottom-0 {
+    bottom: 0 !important;
+    top: 288px !important;
+  }
+
+.container h1 {
+    margin-top: 216px;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px black;
+}
+
+.text-center {
+    margin-top: 248px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.row {
+    width: 92vw;
+    margin: 37px;
+}
+
+.navbar-brand {
+    font-size: 31px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 4px 4px black;
+}
+
+.dropdown {
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 2px black;
+    border-radius: 23px
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.card-body {
+    background-image: linear-gradient(blue, lightgrey);
+}
+
+.card-header:first-child {
+    background-color: blueviolet;
+}
+
+.card-footer:last-child {
+    background-color: bisque;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+    box-shadow: 5px 5px 6px 2px black;
+}
+
+.section {
+    margin: 52px;
+}
+
+.circle {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+.circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+#right {
+    margin-left: 352px;
+    display: flex;
+}
+
+.box1 svg {
+    margin: 20px;
+}
+
+.row-cols-md-2>* {
+    flex: 0 0 auto;
+    width: 50%;
+    box-shadow: -3px 7px 13px 3px black;
+}
+.modal-header .btn-close{
+    position: absolute;
+    top: 15px;
+    right: 17px;
+}
+.modal-content{
+    background-color: lightgrey;
+}
+

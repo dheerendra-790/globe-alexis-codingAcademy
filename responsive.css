@@ -1,0 +1,175 @@
+@media screen and (max-width:1199px) {
+    #photo .rotator {
+        right: 480px;
+    }
+
+    .animate-text {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1120px) {
+    #photo .rotator {
+        right: 480px;
+        width: 178px;
+        height: 178px;
+        top: -88px;
+    }
+
+    #photo img {
+        width: 175px;
+        height: 175px;
+    }
+
+}
+
+@media screen and (max-width:1076px) {
+    #photo .rotator {
+        right: 481px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #photo .rotator {
+        right: 360px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #photo .rotator {
+        right: 270px;
+        width: 143px;
+        height: 143px;
+        top: -34px;
+    }
+
+    #photo img {
+        position: absolute;
+        top: 39px;
+        right: 199px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    #photo img {
+        width: 133px;
+        height: 133px;
+    }
+}
+
+.container h1 {
+    margin-left: -37px;
+}
+
+@media screen and (max-width:642px) {
+    #photo .rotator {
+        right: 262px;
+        width: 125px;
+        height: 125px;
+        top: -27px;
+        border: 5px dotted red;
+    }
+
+    #photo img {
+        width: 122px;
+        height: 122px;
+    }
+
+    .container {
+        right: 39px;
+    }
+
+    .container h1 {
+        margin-left: -2%;
+        font-size: 149%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card-body {
+        width: 205%;
+    }
+
+    /* .card-img-top {
+        width: 205% !important;
+      } */
+    .row-cols-md-2>* {
+        width: 202%;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:558px) {
+    .container {
+        right: 7px;
+    }
+
+    .row-cols-md-2>* {
+        width: 96%;
+    }
+
+    /* .card-body {
+        width: 96%;
+      } */
+}
+
+@media screen and (max-width:558px) {
+    #photo img {
+        width: 100px;
+        height: 100px;
+        top: 67px;
+    }
+
+    #photo .rotator {
+        right: 249px;
+        width: 103px;
+        height: 103px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .container {
+        right: -7px;
+    }
+
+    #photo img {
+        top: 94px;
+        left: 157px;
+    }
+
+    #photo .rotator {
+        top: 40px;
+        border: 3px dotted red;
+        right: 206px;
+    }
+}
+@media screen and (max-width: 391px){
+    #photo .rotator{
+        right: 186px;
+    }
+    .container h1{
+        font-size: 125%;
+    }
+}
+@media screen and (max-width:376px){
+    #photo .rotator{
+        right: 190px;
+    }
+    #photo img{
+        left: 139px;
+    }
+    .container h1{
+        font-size: 131%;
+    }
+    button:not(:disabled){
+        margin-left: -6px;
+    }
+    }
